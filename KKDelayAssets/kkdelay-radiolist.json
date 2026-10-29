@@ -1,0 +1,483 @@
+[
+	{
+		"name": "KissKiss Italia",
+        "streamUrl": "https://ice06.fluidstream.net/KKItalia.aac",
+        "logoUrl": "https://kisskissitalia.it/wp-content/uploads/2021/07/cropped-favicon-kisskissitalia-180x180.png",
+		"feedUrl": "https://prod.radio-api.net/stations/now-playing?stationIds=kisskissitalia",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "[0].title",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.kisskissitalia.it"
+    },
+    {
+		"name": "KissKiss Napoli",
+        "streamUrl": "https://kisskiss.fluidstream.eu/KKNapoli.aac",
+        "logoUrl": "https://kisskissnapoli.it/wp-content/uploads/2022/03/cropped-logo-kisskiss-napoli.png.webp",
+		"feedUrl": "https://prod.radio-api.net/stations/now-playing?stationIds=kisskissnapoli",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "[0].title",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.kisskissnapoli.it"
+    },
+    {
+		"name": "Radio Marte",
+        "streamUrl": "https://stream1.xdevel.com/audio0s975753-313/stream/icecast.audio",
+        "logoUrl": "https://www.radiomarte.it/wp-content/uploads/2025/01/Favicon.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radiomarte.it/"
+    },
+    {
+		"name": "Radio CRC",
+        "streamUrl": "http://stream9.xdevel.com/audio2s975936-745/stream/icecast.audio",
+        "streamUrl2": "http://onair11.xdevel.com:9998/;",
+        "logoUrl": "https://www.radio.it/300/radiocrc.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://crcnews.it"
+    },
+    {
+		"name": "Radio Tutto Napoli",
+        "streamUrl": "https://stream.tmwradio.com/tuttonapoli.aac",
+        "logoUrl": "https://pbs.twimg.com/profile_images/1993295966187765760/DWFHok0a_400x400.jpg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radiotuttonapoli.net/"
+    },
+    {
+		"name": "Radio Napoli Centrale",
+        "streamUrl": "https://panel.rmsradio.it:2020/stream/napolicentraleapp",
+        "logoUrl": "https://www.radionapolicentrale.it/assets/logo-RQLWep3V.png",
+		"feedUrl": "https://ecozuhqkkpbuqalsvczh.supabase.co/functions/v1/radio-metadata?url=https://panel.rmsradio.it:2020/json/stream/radionapolicentrale",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "nowplaying",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radionapolicentrale.it/"
+    },
+	{
+        "name": "Rai Radio 1",
+        "streamUrl": "https://icestreaming.rai.it/1.mp3",
+        "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/rai-radio-1.jpg",
+		"feedUrl": "https://www.raiplayradio.it/dl/palinsesti/oraInOndaRadio.json",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "dirette[4].currentItem.isPartOf.name",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.raiplayradio.it/radio1/"
+    },
+    {
+        "name": "Rai Radio 1 Sport",
+        "streamUrl": "https://icestreaming.rai.it/13.mp3",
+        "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/rai-radio-1-sport.jpg",
+		"feedUrl": "https://www.raiplayradio.it/dl/palinsesti/oraInOndaRadio.json",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "dirette[5].currentItem.isPartOf.name;dirette[5].currentItem.description",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.raiplayradio.it/radio1sport/"
+    },
+    {
+        "name": "Radio Alta BergamoTV",
+        "streamUrl": "https://live.radioalta.it/stream.mp3",
+        "logoUrl": "https://cdn-profiles.tunein.com/s25078/images/logod.jpg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.bergamotv.it/radiolive/"
+    },
+    {
+        "name": "Radiolina",
+        "streamUrl": "https://streaming.shoutcast.com/radiolina",
+        "logoUrl": "https://radiolina.it/wp-content/uploads/2021/10/Radiolina150x150-100x100.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://radiolina.it/"
+    },
+    {
+        "name": "talkSPORT",
+        "streamUrl": "https://radio.talksport.com/stream",
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAcdmwRcs4FcWk_OQqxq4EyZH5YA7ixM2dvQ&usqp=CAU",
+		"feedUrl": "https://listen.talksport.com/sites/default/files/on_air_now_json.js",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "ts.show",
+		"country": "🇬🇧 United Kingdom",
+		"website": "https://talksport.com"
+    },
+    {
+        "name": "talkSPORT2",
+        "streamUrl": "https://radio.talksport.com/stream2",
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAcdmwRcs4FcWk_OQqxq4EyZH5YA7ixM2dvQ&usqp=CAU",
+		"feedUrl": "https://listen.talksport.com/sites/default/files/on_air_now_json.js",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "ts2.show",
+		"country": "🇬🇧 United Kingdom",
+		"website": "https://talksport.com"
+    },
+    {
+        "name": "Radio Yacht",
+        "streamUrl": "https://radioyachtcapri.newradio.it/1",
+        "logoUrl": "https://radioyacht.com/ry/wp-content/uploads/2018/12/ry-favicon.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radioyacht.com"
+    },
+	{
+        "name": "Radio Meuh",
+        "streamUrl": "https://radiomeuh2.ice.infomaniak.ch/radiomeuh2-128.mp3",
+        "logoUrl": "https://www.radiomeuh.com/apple-icon-120x120.png",
+		"feedUrl": "https://www.radiomeuh.com/player/rtdata/tracks.json",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "[0].artist;[0].album;[0].titre",
+		"country": "🇫🇷 France",
+		"website": "http://www.radiomeuh.com"
+    },
+	{
+        "name": "RMC",
+        "streamUrl": "https://audio.bfmtv.com/rmcradio_128.mp3?aw_0_1st.playerId=RMC_audio_web&aggregator=RMC_audio_web",
+        "logoUrl": "https://rmc.bfmtv.com/assets/v5/images/RMC.1ec2ddf84243302735987726a67abc7a.svg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇫🇷 France",
+		"website": "https://rmc.bfmtv.com"
+    },
+	{
+        "name": "Mana' Mana' Sport Roma",
+        "streamUrl": "https://stream10.xdevel.com/audio2s975363-2142/stream/icecast.audio",
+        "logoUrl": "https://www.manamanasportroma.it/_ipx/s_300x128/imgs/logomana-nuovo.svg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.manamanasportroma.it/"
+    },
+	{
+        "name": "Radio Romanista",
+        "streamUrl": "https://romanista.newradio.it/stream",
+        "logoUrl": "https://radioromanista.it/wp-content/uploads/2023/01/Logo-2.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://radioromanista.it/"
+    },
+    {
+		"name": "RGS - Radio Giornale di Sicilia",
+        "streamUrl": "https://onair15.xdevel.com/proxy/rgs?mp=/;",
+        "logoUrl": "https://streamsolution1.xdevel.com/services-logos/g1gfkvrgU0RbFdAtU86ZA6A1DKkbIC9D2ZMxnqoc-400x400.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://rgs.gds.it/"
+    },
+	{
+        "name": "ReteSport 104.2",
+        "streamUrl": "https://icecast.ithost.it/retesport.ogg",
+        "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/retesport.jpg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.retesport.it"
+    },
+	{
+        "name": "Tele Radio Stereo",
+        "streamUrl": "https://sr8.inmystream.it:8016/stream",
+        "logoUrl": "https://www.teleradiostereo.it/wp-content/uploads/2024/06/03_LOGO-TELERADIOSTEREO-1-150x150.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.teleradiostereo.it"
+    },
+    {
+        "name": "TMW Radio",
+        "streamUrl": "https://stream.tmwradio.com/tmw.aac",
+        "logoUrl": "https://cdn-profiles.tunein.com/s266706/images/logod.png?t=637079452780000000",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.tmwradio.com/"
+    },
+	{
+        "name": "Radio Lazio Style",
+        "streamUrl": "http://nr9.newradio.it:9043/stream/1/",
+        "logoUrl": "https://static-media.streema.com/media/cache/89/85/8985d16bcade27dbcb794610eb3e9121.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "http://www.laziostyleradio.it"
+    },
+	{
+        "name": "Radio Bruno - Lombardia",
+        "streamUrl": "https://stream1.xdevel.com/audio7s975552-215/stream/icecast.audio",
+        "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/radio-bruno.jpg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy - Radio Bruno",
+		"website": "https://www.radiobruno.it/"
+    },
+	{
+        "name": "Pentasport",
+        "streamUrl": "https://stream3.xdevel.com/audio6s975355-281/stream/icecast.audio",
+        "logoUrl": "https://www.ilpentasport.it/photos/original/gallery/img-7755/pentasport-da-luned-al-sabato-dalle-1800-alle-2030.jpg",
+		"feedUrl": "https://api.xdevel.com/streamsolution/web/player/songs/history/280?clientId=9e4851321927f12a4bdc7e3b913b82fb9f8d98f7",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "result[0].artist;result[0].title",
+		"country": "🇮🇹 Italy - Radio Bruno",
+		"website": "https://www.ilpentasport.it"
+    },
+	{
+		"name": "Lady Radio",
+		"streamUrl": "https://onair22.xdevel.com/proxy/ladyradio?mp=/;stream/;",
+		"logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/lady-radio_1.jpg",
+		"feedUrl": "https://share.xdevel.com/api/?platform=streamsolution&get=currentsong&key=bb9cf3d2100d7ee88a5fb616c00823fc&rdm=1645060026044",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "artist;title",
+		"country": "🇮🇹 Italy",
+		"website": "http://www.ladyradio.it"
+	},
+	{
+		"name": "Radio Firenze Viola",
+		"streamUrl": "https://stream.tmwradio.com/rfviola.aac?FLID=1",
+		"logoUrl": "https://static.mytuner.mobi/media/tvos_radios/catudv4qbr4q.jpeg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radiofirenzeviola.it/"
+	},
+	{
+		"name": "Radio Nettuno",
+        "streamUrl": "https://audio6.nemostream.tv/proxy/nettunobologna1ice1/stream",
+        "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/kb25nepebjjc.jpg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radiobolognauno.it"
+    },
+	{
+        "name": "Radio 105",
+        "streamUrl": "https://icecast.unitedradio.it/Radio105.mp3",
+        "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/radio-105.jpg",
+		"feedUrl": "https://www.105.net/custom_widget/finelco/getStreamInfo.jsp?host=https%3A%2F%2Ficy.unitedradio.it%2FRadio105.mp3&radio=105_webradio_",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "artist;album;title",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.105.net"
+    },
+    {
+		"name": "RTL 102.5",
+        "streamUrl": "https://streamingv2.shoutcast.com/rtl-1025",
+        "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/rtl-102-5.jpg",
+		"feedUrl": "https://cloud.rtl.it/no-cache/david/json/david_rtl1025_fm_custom.json",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "songInfo.show.prg_title",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.rtl.it"
+    },
+	{
+		"name": "Radio Sportiva",
+        "streamUrl": "https://sportiva.inmystream.it/stream/sportiva",
+        "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/radio-sportiva.jpg",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radiosportiva.com"
+    },
+	{
+		"name": "Radio Nostalgia",
+        "streamUrl": "https://rn1.fluidstream.eu/nostalgia_li.aac",
+        "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/radio-nostalgia.jpg",
+		"feedUrl": "https://titoli.fluidstream.it/rn1/onair_nosli.json",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "artistName;trackName",
+		"country": "🇮🇹 Italy",
+		"website": "https://nostalgia.it"
+    },
+	{
+		"name": "Radio Bussola 24",
+        "streamUrl": "https://radiobussola24.radioca.st/;",
+        "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/sAVcJuPEFM.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radiobussola.it"
+    },
+	{
+		"name": "RadioSei",
+        "streamUrl": "https://icecast.ithost.it/radiosei.ogg",
+        "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/S6YgWdxbe6.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radiosei.it"
+    },
+	{
+		"name": "Radio Verona",
+        "streamUrl": "https://ice04.fluidstream.net/fluid0405.mp3?FLID=1&type=.mp3",
+        "logoUrl": "https://www.radioverona.it/gfx/lib/ath-v1/favicon/rvr/120x120.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radioverona.it"
+    },
+	{
+		"name": "Radio Punto Nuovo",
+        "streamUrl": "http://onair15.xdevel.com:8062/;?ver=603103",
+        "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/uZ4FY2DMXC.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇮🇹 Italy",
+		"website": "http://www.radiopuntonuovo.it/"
+    },
+	{
+		"name": "Cope",
+        "streamUrl": "https://flucast07-o-cloud.flumotion.com/cope/net1.mp3",
+        "logoUrl": "https://endirecto.online/files/styles/180/public/logo/cope.jpg",
+		"feedUrl": "https://www.cope.es/api/es/appbeta/streaming/net1",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "metadata.title",
+		"country": "🇪🇸 Spain",
+		"website": "https://www.cope.es/"
+    },
+	{
+		"name": "Cadena SER",
+        "streamUrl": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3",
+        "logoUrl": "https://endirecto.online/files/styles/180/public/logo/cadena-ser.jpg?itok=OSIrzQj8",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇪🇸 Spain",
+		"website": "https://cadenaser.com"
+    },
+	{
+		"name": "RAC1",
+        "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1.mp3",
+        "logoUrl": "https://endirecto.online/files/styles/180/public/logo/rac1.jpg?itok=OoxL5XXh",
+		"feedUrl": "https://api.audioteca.rac1.cat/piece/audio?id=live",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "audio.title",
+		"country": "🇪🇸 Spain",
+		"website": "https://www.rac1.cat"
+    },
+	{
+		"name": "Catalunya Ràdio",
+        "streamUrl": "https://shoutcast.ccma.cat/ccma/catalunyaradioHD.mp3",
+        "logoUrl": "https://endirecto.online/files/styles/180/public/logo/catradio.jpg?itok=DdJ1tn2b",
+		"feedUrl": "https://dinamics.ccma.cat/wsarafem/arafem/radio/profile/noimage/geo/int",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "canal[0].ara_fem.titol_programa",
+		"country": "🇪🇸 Spain",
+		"website": "https://www.ccma.cat/catradio/"
+    },
+	{
+		"name": "SER Catalunya",
+        "streamUrl": "https://23543.live.streamtheworld.com/SER_CAT.mp3",
+        "logoUrl": "https://www.radio.fr/175/cadenasercatalunya.jpeg?version=54368f58a9074a510283d33ae8e61ee5c6f8cb4c",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇪🇸 Spain",
+		"website": "https://cadenaser.com/sercat/"
+    },
+	{
+		"name": "Radio Marca",
+        "streamUrl": "https://radiomarcabcnmedia.dns-lcinternet.com:9000/stream",
+        "logoUrl": "https://endirecto.online/files/styles/180/public/logo/radio-marca.jpg?itok=YBvuP35E",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇪🇸 Spain",
+		"website": "https://www.radiomarcabarcelona.com"
+    },
+	{
+		"name": "95.3 WDAE",
+        "streamUrl": "https://stream.revma.ihrhls.com/zc673",
+        "logoUrl": "https://i.iheart.com/v3/re/assets.brands/600e0a8a03679dd3865d741f",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇺🇸 USA - Tampa, Florida",
+		"website": "https://953wdae.iheart.com"
+    },
+	{
+		"name": "ESPN New York 98.7",
+        "streamUrl": "https://prod-3-93-164-218.wostreaming.net/goodkarma-wepnfmmp3-ibc",
+        "logoUrl": "https://goodkarmabrands.com/images/880_1050_stk_V3Official_250x318.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇺🇸 USA - New York",
+		"website": "https://www.espn.com/radio/play/_/s/nyc"
+    },
+	{
+		"name": "Rádio TUPI",
+        "streamUrl": "https://8923.brasilstream.com.br/stream",
+        "logoUrl": "https://cdn-profiles.tunein.com/s18655/images/logod.png?t=639026325490000000",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇧🇷 Brasil - Rio de Janeiro",
+		"website": "https://www.tupi.fm"
+    },
+	{
+		"name": "Rádio Transamérica",
+        "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_SPAAC.aac",
+        "logoUrl": "https://img.radios.com.br/radio/lg/radio8803_1578516680.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇧🇷 Brasil - São Paulo",
+		"website": "https://radiotransamerica.com.br"
+    },
+	{
+		"name": "Rádio Globo",
+        "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_GLOBO_RJAAC.aac",
+        "logoUrl": "https://img.radios.com.br/radio/lg/radio8817_1676300226.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇧🇷 Brasil - Rio de Janeiro",
+		"website": "https://radioglobo.globo.com"
+    },
+	{
+		"name": "Caracol Radio",
+        "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIOAAC.aac",
+        "logoUrl": "https://caracol.com.co/pf/resources/caracol-colombia/touch-icon-ipad.png?d=174",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇨🇴 Colombia - Bogotá",
+		"website": "https://caracol.com.co/"
+    },
+	{
+		"name": "La Voz del Cinaruco",
+        "streamUrl": "https://radiolatina.info/7438/stream/",
+        "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/991/la-voz-del-cinaruco.222e8332.png",
+		"feedUrl": "",
+		"feedFormat" : "",
+		"feedJSONPath" : "",
+		"country": "🇨🇴 Colombia",
+		"website": "https://lavozdelcinaruco.com/"
+    }
+]
