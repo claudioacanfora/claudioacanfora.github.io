@@ -479,5 +479,15 @@
 		"feedJSONPath" : "",
 		"country": "🇨🇴 Colombia",
 		"website": "https://lavozdelcinaruco.com/"
+    },
+	{
+		"name": "Radio Subasio",
+        "streamUrl": "https://icy.unitedradio.it/Subasio.mp3",
+        "logoUrl": "https://www.radiosubasio.it/wp-content/themes/radiosubasiov2/assets/images/logo-radio-subasio.png",
+		"feedUrl": "https://meta1.xdevel.com/song/current/radio-subasio?0.5941020014157383&callback=cb_player",
+		"feedFormat" : "JSON",
+		"feedJSONPath" : "result.meta",
+		"country": "🇮🇹 Italy",
+		"website": "https://www.radiosubasio.it/"
     }
 ]
