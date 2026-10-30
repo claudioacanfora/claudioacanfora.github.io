@@ -64,9 +64,9 @@
         "name": "Rai Radio 1",
         "streamUrl": "https://icestreaming.rai.it/1.mp3",
         "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/rai-radio-1.jpg",
-		"feedUrl": "https://www.raiplayradio.it/dl/palinsesti/oraInOndaRadio.json",
+		"feedUrl": "https://www.raiplaysound.it/palinsesto/onAir.json",
 		"feedFormat" : "JSON",
-		"feedJSONPath" : "dirette[4].currentItem.isPartOf.name",
+		"feedJSONPath" : "on_air[0].currentItem.program.name",
 		"country": "🇮🇹 Italy",
 		"website": "https://www.raiplayradio.it/radio1/"
     },
@@ -74,9 +74,9 @@
         "name": "Rai Radio 1 Sport",
         "streamUrl": "https://icestreaming.rai.it/13.mp3",
         "logoUrl": "https://radio-in-diretta.com/files/styles/180/public/logo/rai-radio-1-sport.jpg",
-		"feedUrl": "https://www.raiplayradio.it/dl/palinsesti/oraInOndaRadio.json",
+		"feedUrl": "https://www.raiplaysound.it/palinsesto/onAir.json",
 		"feedFormat" : "JSON",
-		"feedJSONPath" : "dirette[5].currentItem.isPartOf.name;dirette[5].currentItem.description",
+		"feedJSONPath" : "on_air[5].currentItem.program.name",
 		"country": "🇮🇹 Italy",
 		"website": "https://www.raiplayradio.it/radio1sport/"
     },
