@@ -23,8 +23,8 @@
 		"name": "Radio Marte",
 		"streamUrl": "https://stream1.xdevel.com/audio0s975753-313/stream/icecast.audio",
 		"logoUrl": "https://www.radiomarte.it/wp-content/uploads/2025/01/Favicon.png",
-		"feedUrl": "",
-		"feedFormat": "",
+		"feedUrl": "https://www.radiomarte.it/?qtdir=4429",
+		"feedFormat": "RAW",
 		"feedJSONPath": "",
 		"country": "🇮🇹 Italy",
 		"website": "https://www.radiomarte.it/"
