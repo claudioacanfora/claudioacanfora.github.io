@@ -807,11 +807,44 @@ h2 span {
   font-size: 12px;
 }
 
+.download-actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 12px;
+}
+
 .play-badge-light {
   position: relative;
   z-index: 1;
   flex: 0 0 auto;
   border-color: rgba(255, 255, 255, .68);
+}
+
+.coffee-badge {
+  border-color: #ffdd00;
+  background: #ffdd00;
+  color: #111;
+}
+
+.coffee-badge-icon {
+  flex: 0 0 auto;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.coffee-badge .play-badge-text small {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.coffee-badge .play-badge-text strong {
+  font-size: 13px;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .download-decoration {
@@ -1320,6 +1353,13 @@ h2 span {
   }
 
   .play-badge-light {
+    margin-top: 0;
+  }
+
+  .download-actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
     margin-top: 3px;
   }
 
